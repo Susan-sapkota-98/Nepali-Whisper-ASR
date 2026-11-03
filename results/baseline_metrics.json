@@ -1,0 +1,10 @@
+{
+  "model": "openai/whisper-small",
+  "test_clips": 898,
+  "settings": {
+    "max_new_tokens": 73,
+    "no_repeat_ngram_size": 4
+  },
+  "wer": 1.363,
+  "cer": 0.589
+}

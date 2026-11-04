@@ -1,0 +1,16 @@
+{
+  "model": "whisper-small fine-tuned on SLR54 shard 0",
+  "train_clips": 7961,
+  "epochs": 3,
+  "learning_rate": 1e-05,
+  "effective_batch_size": 16,
+  "test_clips": 898,
+  "with_repeat_guard": {
+    "wer": 0.391,
+    "cer": 0.106
+  },
+  "without_repeat_guard": {
+    "wer": 0.382,
+    "cer": 0.104
+  }
+}

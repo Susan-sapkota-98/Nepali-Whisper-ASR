@@ -1,8 +1,18 @@
+# data and audio
 *.zip
 *.flac
 *.wav
 *.mp3
 data/
+
+# models and training output
 checkpoints/
+final_model/
+smoke_test/
+*.safetensors
+*.pt
+*.bin
+
+# python and notebook leftovers
 __pycache__/
 .ipynb_checkpoints/

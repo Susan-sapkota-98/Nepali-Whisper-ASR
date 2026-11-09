@@ -1,0 +1,7 @@
+run_name,train_clips,setting,wer,cer
+train_25pct,1990,with_repeat_guard,0.568,0.17
+train_25pct,1990,no_repeat_guard,0.562,0.167
+train_10pct,796,with_repeat_guard,0.691,0.227
+train_10pct,796,no_repeat_guard,0.689,0.235
+train_50pct,3980,with_repeat_guard,0.472,0.135
+train_50pct,3980,no_repeat_guard,0.465,0.133
